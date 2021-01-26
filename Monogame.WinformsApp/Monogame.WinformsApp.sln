@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monogame.WinformsApp", "Monogame.WinformsApp\Monogame.WinformsApp.csproj", "{1236CF34-9B11-4BF5-8E26-7612A1D14DAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1236CF34-9B11-4BF5-8E26-7612A1D14DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1236CF34-9B11-4BF5-8E26-7612A1D14DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1236CF34-9B11-4BF5-8E26-7612A1D14DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1236CF34-9B11-4BF5-8E26-7612A1D14DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF5E9BA0-3296-4168-84A7-9A4073BD2B14}
+	EndGlobalSection
+EndGlobal
