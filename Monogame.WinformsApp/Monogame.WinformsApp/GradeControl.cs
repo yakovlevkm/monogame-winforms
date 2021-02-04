@@ -57,7 +57,7 @@ namespace Monogame.WinformsApp
         {
             _gradeScale = this.Width / (float)_grade.Width;
             _arrowX = this.Width / 2;
-            _arrowScale = 1.35f;
+            _arrowScale = 0.8f;
             _arrowY = _grade.Width * 0.265f * _arrowScale;
         }
 
