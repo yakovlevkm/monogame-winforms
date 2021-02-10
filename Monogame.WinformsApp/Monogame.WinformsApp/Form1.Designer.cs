@@ -35,6 +35,7 @@ namespace Monogame.WinformsApp
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.gradeControl1 = new Monogame.WinformsApp.GradeControl();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,13 +46,12 @@ namespace Monogame.WinformsApp
             this.ribbonControl1.ExpandCollapseItem,
             this.ribbonControl1.SearchEditItem});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.ribbonControl1.MaxItemId = 1;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.OptionsMenuMinWidth = 660;
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1});
-            this.ribbonControl1.Size = new System.Drawing.Size(1758, 308);
+            this.ribbonControl1.Size = new System.Drawing.Size(879, 158);
             // 
             // ribbonPage1
             // 
@@ -65,25 +65,30 @@ namespace Monogame.WinformsApp
             this.ribbonPageGroup1.Name = "ribbonPageGroup1";
             this.ribbonPageGroup1.Text = "ribbonPageGroup1";
             // 
+            // gradeControl1
+            // 
+            this.gradeControl1.GraphicsProfile = Microsoft.Xna.Framework.Graphics.GraphicsProfile.HiDef;
+            this.gradeControl1.Location = new System.Drawing.Point(12, 164);
+            this.gradeControl1.MouseHoverUpdatesOnly = false;
+            this.gradeControl1.Name = "gradeControl1";
+            this.gradeControl1.Size = new System.Drawing.Size(855, 311);
+            this.gradeControl1.TabIndex = 1;
+            this.gradeControl1.Text = "gradeControl1";
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1758, 936);
+            this.ClientSize = new System.Drawing.Size(879, 487);
+            this.Controls.Add(this.gradeControl1);
             this.Controls.Add(this.ribbonControl1);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Form1";
             this.Ribbon = this.ribbonControl1;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
-
-            gradeControl = new GradeControl() /*{ Width = 500, Height = 300 }*/;
-            this.Controls.Add(gradeControl);
-            this.gradeControl.Location = new Point(0, 350);
-            this.gradeControl.Size = new Size(this.Width, this.Height-50);
-            this.gradeControl.GraphicsProfile = GraphicsProfile.HiDef;
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion
@@ -92,6 +97,7 @@ namespace Monogame.WinformsApp
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage1;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
         private GradeControl gradeControl;
+        private GradeControl gradeControl1;
     }
 }
 
